@@ -1,9 +1,9 @@
 {
   "vendor": "vtex",
-  "name": "base-store-component",
+  "name": "checkout",
   "version": "0.0.1",
-  "title": "IO Base Component",
-  "description": "IO Base component",
+  "title": "Checkout UI",
+  "description": "Checkout UI for the Store Framework",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",
@@ -15,6 +15,15 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "vtex.styleguide": "9.x"
-  }
+    "vtex.store-header": "2.x",
+    "vtex.pixel-interfaces": "1.x",
+    "vtex.pixel-manager": "1.x",
+    "vtex.styleguide": "9.x",
+    "vtex.store-footer": "2.x",
+    "vtex.checkout-cart": "0.x"
+  },
+  "peerDependencies": {
+    "vtex.store": "2.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

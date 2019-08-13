@@ -17,10 +17,8 @@
     "vtex.pixel-manager": "1.x",
     "vtex.styleguide": "9.x",
     "vtex.store-footer": "2.x",
+    "vtex.store": "2.x",
     "vtex.checkout-cart": "0.x"
-  },
-  "peerDependencies": {
-    "vtex.store": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
